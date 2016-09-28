@@ -1,0 +1,35 @@
+body {
+    background: rgba(247, 255, 186, 0.52); 
+    text-align: center;
+    overflow:hidden;
+}
+
+#header {
+    margin-top:20vh;
+    margin-bottom: 5px;
+    font-size:67px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+#sub, #follow {
+    font-size:20px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 40px;
+}
+
+#github {
+    position:fixed;
+    top:5px;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+a:link {color:#30b3c9; text-decoration:none;}      
+a:visited {color:#30b3c9; }
+a:hover {color:#717171; transition: 300ms;}  
+
+a#gitlink:link {color: #c4c4c4;}
+a#gitlink:visited {color: #c4c4c4;}
+a#gitlink:hover {color: #8e8e8e; transition: 0ms;}
+

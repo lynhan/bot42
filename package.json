@@ -1,0 +1,27 @@
+{
+  "name": "bot42-heroku",
+  "version": "0.0.0",
+  "description": "twitter bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njfu/bot42.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot"
+  ],
+  "author": "nj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/njfu/bot42/issues"
+  },
+  "homepage": "https://github.com/njfu/bot42",
+  "dependencies": {
+    "express": "^4.4.5",
+    "logfmt": "^1.1.2"
+  }
+}
